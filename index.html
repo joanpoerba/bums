@@ -1,12 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BUMS</title>
-  <link rel="icon" href="assets/img/favicon.ico">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUMS</title>
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="style/bootstrap.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body id="home" class="container-fluid p-0 m-0">
+    <header
+      style="z-index: 5"
+      class="container-fluid p-0 d-flex justify-content-center align-items-center py-4 position-fixed"
+      data-aos="fade-down"
+      data-aos-duration="2000"
+    >
+      <section
+        class="container-lg d-flex flex-row justify-content-between align-items-center"
+      >
+        <a
+          style="cursor: pointer"
+          href="#home"
+          class="text-light text-decoration-none fw-semibold fs-5"
+        >
+          <img
+            style="width: 55px"
+            class="img-fluid"
+            src="assets/img/whiteLogo.webp"
+            alt="bums white logo"
+          />
+          <span class="ms-2">BUMS</span>
+        </a>
+        <nav>
+          <ul class="m-0 p-0 d-flex flex-row gap-5">
+            <li class="list-unstyled">
+              <a class="text-decoration-none text-light" href="#tentang">
+                Tentang
+              </a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none text-light" href="#category">
+                Category
+              </a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none text-light" href="#service">
+                Service
+              </a>
+            </li>
+            <li class="list-unstyled">
+              <a class="text-decoration-none text-light" href=""> FAQ </a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="btn py-2 px-3 btn-light rounded-5 text-primary fw-medium"
+        >
+          Get In Touch
+        </button>
+      </section>
+    </header>
+    <main
+      style="
+        background-image: url('assets/img/ellipseBackground.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 100vh;
+      "
+      class="container-fluid p-0"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
+      <div
+        class="d-flex flex-column align-items-center justify-content-center h-75"
+      >
+        <h1
+          class="col-4 text-center text-light fw-semibold"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+        >
+          Sekolah, Bisnis, Prestasi, Semua dalam satu tempat!
+        </h1>
+        <button
+          class="col-1 py-2 btn btn-light text-primary rounded-5 mt-5 fw-medium"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+        >
+          Explore!
+        </button>
+      </div>
+      <div>
+        <img
+          class="sameAction img-fluid col-1"
+          src="assets/img/hoverIcon1.png"
+          alt=""
+        />
+        <img
+          class="sameAction img-fluid col-1"
+          src="assets/img/hoverIcon2.png"
+          alt=""
+        />
+        <img
+          class="sameAction img-fluid col-1"
+          src="assets/img/hoverIcon3.png"
+          alt=""
+        />
+        <img
+          class="sameAction img-fluid col-1"
+          src="assets/img/hoverIcon4.png"
+          alt=""
+        />
+      </div>
+    </main>
+    <main
+      style="height: 100vh"
+      id="tentang"
+      class="container-fluid d-flex justify-content-center align-items-center"
+    >
+      <div class="container-lg row align-items-center justify-content-between">
+        <div class="col-5">
+          <h1 class="fw-semibold">Cuan Masa Sekolah? BUMS Solusinya!</h1>
+          <p class="mt-4 m-0">
+            <span class="fw-semibold">Badan Usaha Milik Siswa (BUMS)</span>
+            merupakan platform bagi pelajar yang memiliki usaha. Berasal dari
+            ide kami sebagai sarana jual beli di lingkungan sekolah, Tujuan dari
+            platform ini adalah untuk memfasilitasi pelajar yang ingin
+            mempromosikan usaha milik mereka secara online.
+          </p>
+          <div class="mt-4 d-flex align-items-start">
+            <img
+              style="width: 60px"
+              class="img-fluid rounded-5"
+              src="assets/img/buLau.png"
+              alt=""
+            />
+            <div class="ms-3">
+              <p class="fw-semibold m-0">Laura's story | teacher</p>
+              <p class="mt-2">
+                "Dari dulu kepikiran bikin platform kaya gini, sekolah lain udah
+                pada buat, akhirnya ter realisasikan juga oleh anak-anak ku,
+                proud!"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img class="img-fluid" src="assets/img/backpack.png" alt="" />
+        </div>
+      </div>
+    </main>
+    <main
+      style="height: 100vh"
+      id="category"
+      class="container-fluid row d-flex justify-content-center py-5 p-0 m-0"
+    >
+      <div class="col-10 p-0 py-5">
+        <h2 class="col-12 fw-bold mt-3">Category</h2>
+        <p>Beberapa kategori yang kami sediakan</p>
+        <div class="col-12 row justify-content-between m-0 p-0">
+          <div
+            style="background: #2d64e3"
+            class="sameHoverAction col-5 d-flex justify-content-center align-items-center rounded-3 p-3"
+          >
+            <img
+              class="col-8 img-fluid"
+              src="assets/img/whiteBook.png"
+              alt=""
+            />
+          </div>
+          <div class="row justify-content-between col-7">
+            <div
+              style="background: #2d64e3"
+              class="sameHoverAction col-12 p-3 d-flex justify-content-center align-items-center rounded-3"
+            >
+              <img
+                class="col-6 img-fluid"
+                src="assets/img/whiteShoes.png"
+                alt=""
+              />
+            </div>
+            <div
+              style="background: #2d64e3"
+              class="sameHoverAction mt-3 col-6 p-3 d-flex justify-content-center align-items-center rounded-3"
+            >
+              <img
+                class="col-11 img-fluid"
+                src="assets/img/whiteFlipFlop.png"
+                alt=""
+              />
+            </div>
+            <div
+              style="background: #2d64e3"
+              class="sameHoverAction mt-3 col-5 p-3 d-flex justify-content-center align-items-center rounded-3"
+            >
+              <img class="img-fluid" src="assets/img/whiteNote.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main
+      style="height: 100vh"
+      id="service"
+      class="container-fluid row d-flex justify-content-center py-5 p-0 m-0"
+    >
+      <div class="col-10 p-0 py-5">
+        <h2 class="col-12 fw-bold mt-3">Service</h2>
+        <p>Keunggulan yang akan kamu dapatkan!</p>
+        <div class="col-12 row justify-content-between m-0">
+          <div class="sameHoverAction col-3 bg-light rounded-3 p-3">
+            <img class="col-12 img-fluid" src="assets/img/meet.png" alt="" />
+            <h4 class="fw-bold mt-3">Jasa Antar</h4>
+            <p>
+              Selain membeli barang yang kamu pesan, kamu juga dapat meminta
+              penjual untuk mengantar barang yang kamu beli
+            </p>
+          </div>
+          <div class="sameHoverAction col-3 bg-light rounded-3 p-3">
+            <img
+              class="col-12 img-fluid"
+              src="assets/img/payOnline.png"
+              alt=""
+            />
+            <h4 class="fw-bold mt-3">Bayar Secara Online</h4>
+            <p>
+              Ga punya cash buat bayar pesanan? santai, bisa bayar secara online
+              seperti Dana, Shopee Pay, atau platform pembayaran lainnya
+            </p>
+          </div>
+          <div class="sameHoverAction col-3 bg-light rounded-3 p-3">
+            <img
+              class="col-12 img-fluid"
+              src="assets/img/cashBack.png"
+              alt=""
+            />
+            <h4 class="fw-bold mt-3">Cash Back 100%</h4>
+            <p>
+              Kamu bisa mendapat cash back 100% jika merasa barang yang kamu
+              pesan sudah rusak atau tidak sesuai dengan foto
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      $(window).ready(function () {
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > 50) {
+            $("header").addClass("scrollActive");
+            $("header").addClass("shadow");
+          } else {
+            $("header").removeClass("scrollActive");
+            $("header").removeClass("shadow");
+          }
+        });
+        AOS.init();
+      });
+    </script>
+  </body>
 </html>
