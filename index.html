@@ -7,6 +7,10 @@
     <link rel="icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="style/bootstrap.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
   </head>
   <body id="home" class="container-fluid p-0 m-0">
     <header
@@ -49,7 +53,7 @@
               </a>
             </li>
             <li class="list-unstyled">
-              <a class="text-decoration-none text-light" href=""> FAQ </a>
+              <a class="text-decoration-none text-light" href="#faq"> FAQ </a>
             </li>
           </ul>
         </nav>
@@ -114,7 +118,16 @@
       </div>
     </main>
     <main
-      style="height: 100vh"
+      style="
+        height: 100vh;
+        background-color: #ffffff;
+        background-color: #ffffff;
+        opacity: 1;
+        background-image: radial-gradient(#2d64e3 0.8px, transparent 0.8px),
+          radial-gradient(#2d64e3 0.8px, #ffffff 0.8px);
+        background-size: 32px 32px;
+        background-position: 0 0, 16px 16px;
+      "
       id="tentang"
       class="container-fluid d-flex justify-content-center align-items-center"
     >
@@ -128,22 +141,6 @@
             platform ini adalah untuk memfasilitasi pelajar yang ingin
             mempromosikan usaha milik mereka secara online.
           </p>
-          <div class="mt-4 d-flex align-items-start">
-            <img
-              style="width: 60px"
-              class="img-fluid rounded-5"
-              src="assets/img/buLau.png"
-              alt=""
-            />
-            <div class="ms-3">
-              <p class="fw-semibold m-0">Laura's story | teacher</p>
-              <p class="mt-2">
-                "Dari dulu kepikiran bikin platform kaya gini, sekolah lain udah
-                pada buat, akhirnya ter realisasikan juga oleh anak-anak ku,
-                proud!"
-              </p>
-            </div>
-          </div>
         </div>
         <div class="col-4">
           <img class="img-fluid" src="assets/img/backpack.png" alt="" />
@@ -201,45 +198,187 @@
       </div>
     </main>
     <main
+      style="
+        height: 80vh;
+        background-color: #ffffff;
+        opacity: 1;
+        background-image: radial-gradient(#2d64e3 0.8px, transparent 0.8px),
+          radial-gradient(#2d64e3 0.8px, #ffffff 0.8px);
+        background-size: 32px 32px;
+        background-position: 0 0, 16px 16px;
+      "
+      class="container-fluid d-flex justify-content-center p-0 m-0"
+    >
+      <div
+        class="container-lg row p-0 m-0 justify-content-between align-items-center"
+      >
+        <div class="col-6">
+          <p class="fw-medium text-danger">Laura's Story</p>
+          <h1 class="fw-bold">
+            "Kita bisa jual produk kita sendiri. Kenapa gak kita buat di
+            <span class="text-danger">Telkom?</span>"
+          </h1>
+          <p style="color: #6e6e6e" class="mt-3 fs-6">
+            Teradang kesel sendiri karena tidak ada wadah bagiku untuk
+            menuangkan ide agar para pengusaha offline dalam sekolah dapat
+            menjual barangnya secara online, sedangkan di luar sana sudah banyak
+            orang berlomba-lomba membuatnya. Dan akhirnya ini di realisasikan
+            oleh anak-anak ku. Proud!
+          </p>
+        </div>
+        <div class="col-4">
+          <img class="img-fluid" src="assets/img/buLau.png" />
+          <p class="fw-semibold m-0 fs-5">Laura Rosalin Sinaga S.E</p>
+          <p style="color: #6e6e6e" class="fw-normal m-0 text-danger">
+            Guru Kewirausahaan SMK Telkom 1 Medan
+          </p>
+        </div>
+      </div>
+    </main>
+    <main
       style="height: 100vh"
       id="service"
       class="container-fluid row d-flex justify-content-center py-5 p-0 m-0"
     >
       <div class="col-10 p-0 py-5">
         <h2 class="col-12 fw-bold mt-3">Service</h2>
-        <p>Keunggulan yang akan kamu dapatkan!</p>
-        <div class="col-12 row justify-content-between m-0">
-          <div class="sameHoverAction col-3 bg-light rounded-3 p-3">
-            <img class="col-12 img-fluid" src="assets/img/meet.png" alt="" />
-            <h4 class="fw-bold mt-3">Jasa Antar</h4>
-            <p>
-              Selain membeli barang yang kamu pesan, kamu juga dapat meminta
-              penjual untuk mengantar barang yang kamu beli
-            </p>
-          </div>
-          <div class="sameHoverAction col-3 bg-light rounded-3 p-3">
+        <p>Benefit yang akan kamu dapatkan!</p>
+        <div class="col-12 row justify-content-between align-items-start m-0">
+          <div
+            style="
+              background-image: url('assets/img/elipseBackground.png');
+              background-size: contain;
+              background-position: top;
+              background-repeat: no-repeat;
+            "
+            class="sameHoverAction col-3 bg-light rounded-3 p-3 shadow-lg d-flex flex-column align-items-center"
+          >
             <img
-              class="col-12 img-fluid"
+              class="col-8 my-4 img-fluid"
+              src="assets/img/meet.png"
+              alt=""
+            />
+            <div>
+              <h4 class="fw-bold mt-3">Jasa Antar</h4>
+              <p>
+                Kamu juga dapat meminta penjual untuk mengantar barang yang kamu
+                beli.
+              </p>
+            </div>
+          </div>
+          <div
+            style="
+              background-image: url('assets/img/elipseBackground.png');
+              background-size: contain;
+              background-position: top;
+              background-repeat: no-repeat;
+              margin-top: 50px;
+            "
+            class="sameHoverAction col-3 bg-light rounded-3 p-3 shadow-lg d-flex flex-column align-items-center"
+          >
+            <img
+              class="col-8 my-4 img-fluid"
               src="assets/img/payOnline.png"
               alt=""
             />
-            <h4 class="fw-bold mt-3">Bayar Secara Online</h4>
-            <p>
-              Ga punya cash buat bayar pesanan? santai, bisa bayar secara online
-              seperti Dana, Shopee Pay, atau platform pembayaran lainnya
-            </p>
+            <div>
+              <h4 class="fw-bold mt-3">Bayar Secara Online</h4>
+              <p>
+                Ga punya cash? santai, bayar secara online seperti Dana, Shopee
+                Pay, atau platform pembayaran lainnya.
+              </p>
+            </div>
           </div>
-          <div class="sameHoverAction col-3 bg-light rounded-3 p-3">
+          <div
+            style="
+              background-image: url('assets/img/elipseBackground.png');
+              background-size: contain;
+              background-position: top;
+              background-repeat: no-repeat;
+              margin-top: 100px;
+            "
+            class="sameHoverAction col-3 bg-light rounded-3 p-3 shadow-lg d-flex flex-column align-items-center"
+          >
             <img
-              class="col-12 img-fluid"
+              class="col-8 my-4 img-fluid"
               src="assets/img/cashBack.png"
               alt=""
             />
-            <h4 class="fw-bold mt-3">Cash Back 100%</h4>
-            <p>
-              Kamu bisa mendapat cash back 100% jika merasa barang yang kamu
-              pesan sudah rusak atau tidak sesuai dengan foto
-            </p>
+            <div>
+              <h4 class="fw-bold mt-3">Cash Back 100%</h4>
+              <p>
+                Dapatkan cash back 100% jika barang yang kamu pesan sudah rusak
+                atau tidak sesuai dengan foto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main
+      style="height: 100vh"
+      id="faq"
+      class="container-fluid row d-flex justify-content-center pt-5 p-0 m-0"
+    >
+      <div class="col-10 p-0 pt-5">
+        <h2 class="col-12 fw-bold mt-3">Frequently Asked Questions</h2>
+        <p>Beberapa pertanyaan yang mungkin dapat membantu kamu!</p>
+        <div class="row d-flex row m-0 mt-5 gap-5 justify-content-between">
+          <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
+            <i
+              style="border-color: #033059 !important"
+              class="bi bi-emoji-frown-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
+            ></i>
+            <div class="ms-3">
+              <h5 class="fw-semibold textSecondaryColor m-0">
+                gimana kalo barang yang datang rusak?
+              </h5>
+              <p class="mt-2 textSecondaryColor">
+                kamu bakal dapat cash back 100%
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
+            <i
+              style="border-color: #033059 !important"
+              class="bi bi-piggy-bank-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
+            ></i>
+            <div class="ms-3">
+              <h5 class="fw-semibold textSecondaryColor m-0">
+                bisa nyicil buat beli barang?
+              </h5>
+              <p class="mt-2 textSecondaryColor">
+                tentu saja kamu bisa! dengan minimal 3 bulan dan maksimal 5 bulan penyicilan
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
+            <i
+              style="border-color: #033059 !important"
+              class="bi bi-car-front-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
+            ></i>
+            <div class="ms-3">
+              <h5 class="fw-semibold textSecondaryColor m-0">
+                jika kalo barang yang dibeli datang nya lama?
+              </h5>
+              <p class="mt-2 textSecondaryColor">
+                mungkin ada sedikit hambatan bagi penjual, tapi tenang saja, kamu dapat cash back 25%
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
+            <i
+              style="border-color: #033059 !important"
+              class="bi bi-calendar-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
+            ></i>
+            <div class="ms-3">
+              <h5 class="fw-semibold textSecondaryColor m-0">
+                berapa lama kira-kira barang yang dipesan sampai?
+              </h5>
+              <p class="mt-2 textSecondaryColor">
+                mungkin memakan waktu yang tidak terlalu lama karena hanya berada didalam sekolah
+              </p>
+            </div>
           </div>
         </div>
       </div>
