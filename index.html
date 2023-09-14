@@ -57,11 +57,12 @@
             </li>
           </ul>
         </nav>
-        <button
+        <a
+          href="#getInTouch"
           class="btn py-2 px-3 btn-light rounded-5 text-primary fw-medium"
         >
           Get In Touch
-        </button>
+        </a>
       </section>
     </header>
     <main
@@ -218,7 +219,7 @@
             "Kita bisa jual produk kita sendiri. Kenapa gak kita buat di
             <span class="text-danger">Telkom?</span>"
           </h1>
-          <p style="color: #6e6e6e" class="mt-3 fs-6">
+          <p class="mt-3 fs-6">
             Teradang kesel sendiri karena tidak ada wadah bagiku untuk
             menuangkan ide agar para pengusaha offline dalam sekolah dapat
             menjual barangnya secara online, sedangkan di luar sana sudah banyak
@@ -316,73 +317,162 @@
       </div>
     </main>
     <main
-      style="height: 100vh"
+      style="height: 70vh"
       id="faq"
-      class="container-fluid row d-flex justify-content-center pt-5 p-0 m-0"
+      class="container-fluid row d-flex justify-content-center p-0 py-5 m-0"
     >
-      <div class="col-10 p-0 pt-5">
+      <div class="col-10 p-0 py-5">
         <h2 class="col-12 fw-bold mt-3">Frequently Asked Questions</h2>
         <p>Beberapa pertanyaan yang mungkin dapat membantu kamu!</p>
         <div class="row d-flex row m-0 mt-5 gap-5 justify-content-between">
           <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
             <i
-              style="border-color: #033059 !important"
               class="bi bi-emoji-frown-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
             ></i>
             <div class="ms-3">
               <h5 class="fw-semibold textSecondaryColor m-0">
-                gimana kalo barang yang datang rusak?
+                Gimana kalo barang yang datang rusak?
               </h5>
               <p class="mt-2 textSecondaryColor">
-                kamu bakal dapat cash back 100%
+                Kamu bakal dapat cash back 100%
               </p>
             </div>
           </div>
           <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
             <i
-              style="border-color: #033059 !important"
               class="bi bi-piggy-bank-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
             ></i>
             <div class="ms-3">
               <h5 class="fw-semibold textSecondaryColor m-0">
-                bisa nyicil buat beli barang?
+                Bisa nyicil buat beli barang?
               </h5>
               <p class="mt-2 textSecondaryColor">
-                tentu saja kamu bisa! dengan minimal 3 bulan dan maksimal 5 bulan penyicilan
+                Tentu saja kamu bisa! dengan minimal 3 bulan dan maksimal 5
+                bulan penyicilan
               </p>
             </div>
           </div>
           <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
             <i
-              style="border-color: #033059 !important"
               class="bi bi-car-front-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
             ></i>
             <div class="ms-3">
               <h5 class="fw-semibold textSecondaryColor m-0">
-                jika kalo barang yang dibeli datang nya lama?
+                Jika kalo barang yang dibeli datang nya lama?
               </h5>
               <p class="mt-2 textSecondaryColor">
-                mungkin ada sedikit hambatan bagi penjual, tapi tenang saja, kamu dapat cash back 25%
+                Mungkin ada sedikit hambatan bagi penjual, tapi tenang saja,
+                kamu dapat cash back 25%
               </p>
             </div>
           </div>
           <div class="col-12 col-lg-5 d-flex flex-row align-items-start p-0">
             <i
-              style="border-color: #033059 !important"
               class="bi bi-calendar-fill border border-2 rounded-3 p-1 fs-5 textSecondaryColor"
             ></i>
             <div class="ms-3">
               <h5 class="fw-semibold textSecondaryColor m-0">
-                berapa lama kira-kira barang yang dipesan sampai?
+                Berapa lama kira-kira barang yang dipesan sampai?
               </h5>
               <p class="mt-2 textSecondaryColor">
-                mungkin memakan waktu yang tidak terlalu lama karena hanya berada didalam sekolah
+                Mungkin memakan waktu yang tidak terlalu lama karena hanya
+                berada didalam sekolah
               </p>
             </div>
           </div>
         </div>
       </div>
     </main>
+    <main
+      style="
+        height: 100vh;
+        background-color: #ffffff;
+        opacity: 1;
+        background-image: radial-gradient(#2d64e3 0.8px, transparent 0.8px),
+          radial-gradient(#2d64e3 0.8px, #ffffff 0.8px);
+        background-size: 32px 32px;
+        background-position: 0 0, 16px 16px;
+      "
+      id="getInTouch"
+      class="container-fluid d-flex justify-content-center align-items-center py-5"
+    >
+      <section
+        class="container-lg row align-items-center justify-content-between bg-light p-4 m-0 shadow-lg rounded-3"
+      >
+        <img class="col-5 img-fluid" src="assets/img/confused.jpg" alt="" />
+        <div class="col-6">
+          <h2 class="fw-bold">Get In Touch With Us</h2>
+          <p>Hubungi kami dengan mengirim pesan</p>
+          <form action="">
+            <input
+              class="col-12 form-control"
+              type="text"
+              placeholder="Masukkan Username"
+            />
+            <input
+              class="col-12 form-control my-4"
+              type="text"
+              placeholder="Masukkan Email"
+            />
+            <textarea
+              style="resize: none"
+              rows="5"
+              class="col-12 form-control"
+              type="text"
+              placeholder="Masukkan Pesan"
+            ></textarea>
+            <button class="btn btn-primary rounded-2 py-2 col-12 mt-3">
+              Kirim
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="container-fluid row justify-content-center bg-dark py-4 p-0 m-0"
+    >
+      <section class="container-lg row justify-content-between col-10 p-0">
+        <div class="col-7 p-0">
+          <a
+            style="cursor: pointer"
+            href="#home"
+            class="col-12 text-light text-decoration-none fw-semibold fs-5"
+          >
+            <img
+              style="width: 55px"
+              class="img-fluid"
+              src="assets/img/whiteLogo.webp"
+              alt="bums white logo"
+            />
+            <span class="ms-2">BUMS</span>
+          </a>
+          <p class="col-12 text-light mt-3 m-0">
+            © 2023 Bums. Trademarks and Brands are the property of Frogtel. Part
+            of SMK Telkom 1 Nuh Uh.
+          </p>
+        </div>
+        <div class="col-2">
+          <p class="text-light m-0">Stay connected with us</p>
+          <div class="mt-3">
+            <a href="" class="text-decoration-none">
+              <i
+                class="col-auto bi bi-instagram text-light border border-1 p-0 p-2 rounded-2"
+              ></i>
+            </a>
+            <a href="" class="text-decoration-none">
+              <i
+                class="col-auto bi bi-facebook text-light border border-1 p-0 p-2 rounded-2 mx-3"
+              ></i>
+            </a>
+            <a href="" class="text-decoration-none">
+              <i
+                class="col-auto bi bi-twitter text-light border border-1 p-0 p-2 rounded-2"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
