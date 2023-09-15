@@ -204,6 +204,14 @@ body {
 
 /* custom css start */
 
+.home {
+  background-image: url('../assets/img/ellipseBackground.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+}
+
 .primaryColor {
   color: #64C4ED;
 }
@@ -212,13 +220,13 @@ body {
   color: #1E1E1E;
 }
 
-header.scrollActive{
+header.scrollActive {
   padding: 18px 0 !important;
   background: #2D64E3 !important;
   transition: .5s;
 }
 
-.bgPrimary{
+.bgPrimary {
   background: #2D64E3;
 }
 
@@ -253,13 +261,31 @@ header.scrollActive{
   top: 40%;
 }
 
-.sameHoverAction img{
+.sameHoverAction img {
   transition: .5s;
 }
 
-.sameHoverAction:hover img{
+.sameHoverAction:hover img {
   transition: .5s;
   transform: scale(1.1);
+}
+
+@media (max-width: 1242px){
+  .home{
+    background-size: 120%;
+  }
+}
+
+@media (max-width: 964px){
+  .home{
+    background-size: 150%;
+  }
+}
+
+@media (max-width: 755px){
+  .home{
+    background-size: 1400px;
+  }
 }
 
 /* custom css end */
